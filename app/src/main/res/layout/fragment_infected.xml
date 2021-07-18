@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/combo_icon"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"/>
+
+    <ImageView
+        android:id="@+id/infected_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/infected_txt"
+        android:layout_marginTop="162dp"
+        android:layout_marginLeft="37dp"/>
+
+    <ImageView
+        android:id="@+id/infected_context_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/infected_small_txt"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="244dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/turtel"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="-193dp"/>
+</RelativeLayout>

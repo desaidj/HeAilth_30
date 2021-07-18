@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655223684564",
+    "project_id": "heailth-mark-3",
+    "storage_bucket": "heailth-mark-3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655223684564:android:3b639bc4de0ac6c1886a41",
+        "android_client_info": {
+          "package_name": "com.example.heailth_30"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655223684564-vr35o15qpjaur210d1kj04h06df68doo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy7jqE8QRmAPgwNkY48PUSKnLGywYsk-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655223684564-vr35o15qpjaur210d1kj04h06df68doo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

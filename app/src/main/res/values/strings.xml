@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HeAilth_3.0</string>
+
+    <!--btn strings-->
+    <string name="get_started">Get started</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign up</string>
+    <string name="skip">skip</string>
+
+    <!--text input, edit text inputs, and hints-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="already_member">Already a member?</string>
+    <string name="setting">Settings</string>
+    <string name="dont_have_accout">Don\'t have a account?</string>
+    <string name="didnt_recive_link">Didn\'t recive any link, </string>
+    <string name="upload_file">Upload file</string>
+
+    <string name="demo_name">Vaishnav Pillai</string>
+    <string name="demo_email">vaishnav@gmail.com</string>
+    <string name="demo_age">22 yrs</string>
+    <string name="demon_password">123456789</string>
+
+    <string name="loading">Loading...</string>
+
+    <!--nav bar strings-->
+    <string name="home">Home</string>
+    <string name="test">Test</string>
+    <string name="report">Reports</string>
+    <string name="menu">Menu</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Marathi</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Spanish</item>
+    </string-array>
+</resources>

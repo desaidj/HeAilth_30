@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/get_link_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-138dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="-195dp"
+        android:src="@drawable/get_link_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/get_link_button" />
+
+    <ImageView
+        android:id="@+id/get_link_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/cancel_button"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/get_link_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/get_link_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/get_link_logo" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_get_link"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

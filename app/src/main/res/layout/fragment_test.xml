@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/test"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /-->
+
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/combo_icon"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="35dp"/>
+
+    <ImageView
+        android:id="@+id/steP_1_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step_1_txt"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="148dp"/>
+
+    <ImageView
+        android:id="@+id/upload_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/upload_file"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="252dp"/>
+
+    <ImageView
+        android:id="@+id/step_2_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/step_2_txt"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="331dp"/>
+
+    <ImageView
+        android:id="@+id/check_result_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/check_results"
+        android:layout_marginTop="434dp"
+        android:layout_marginLeft="63dp"/>
+
+    <ImageView
+        android:id="@+id/test_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/x_ray"
+        android:layout_marginTop="492.59dp"
+        android:layout_marginLeft="19dp"/>
+
+</RelativeLayout>

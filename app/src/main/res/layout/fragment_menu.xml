@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/combo_icon" />
+
+    <!--de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/menu_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/menu_profile_pic"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/gray"/-->
+
+    <ImageView
+        android:id="@+id/menu_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/menu_profile_pic"/>
+
+    <TextView
+        android:id="@+id/menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="193dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/loading"
+        android:textColor="@color/dark_yellow"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/menu_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="214dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/loading"
+        android:textColor="@color/dark_yellow"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/menu_edit_profile_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="329dp"
+        android:layout_marginTop="201dp"
+        android:src="@drawable/edit_pen" />
+
+    <ImageView
+        android:id="@+id/menu_delete_acc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="245dp"
+        android:src="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/menu_aboutUs_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="292dp"
+        android:src="@drawable/about_us" />
+
+    <ImageView
+        android:id="@+id/menu_logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="343dp"
+        android:src="@drawable/log_out" />
+
+    <ImageView
+        android:id="@+id/menu_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="392dp"
+        android:src="@drawable/menu_bg" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_menu"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
